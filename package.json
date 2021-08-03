@@ -1,0 +1,16 @@
+{
+  "name": "semantic-release",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "minify": "node release-tools/minify.js",
+    "version": "node release-tools/version.js",
+    "combined": "npm run minify && npm run version"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uglify-js": "^3.14.1"
+  }
+}
